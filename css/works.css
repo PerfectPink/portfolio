@@ -1,0 +1,36 @@
+.works-title{
+    text-align: center;
+    margin-bottom: 5vh;
+    margin-top: 10vh;
+}
+.wrapper{
+    max-width: 640px;
+}
+.works-block{
+    display: flex;
+    justify-content: center;
+}
+.works-block a{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px 10px 0px 10px;
+    
+}
+.works-block a *{
+    margin-bottom: 6px;
+}
+.td-n{
+    text-decoration: none;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.workPrev{
+    width: 260px;
+    height: auto;
+    border-radius: 0.5em;
+}

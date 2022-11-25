@@ -1,0 +1,74 @@
+@font-face {
+    font-family:'BP-Bold';
+    src: url(../font/BlenderPro-Bold.ttf);
+}
+@font-face {
+    font-family:'BP-Book';
+    src: url(../font/BlenderPro-Book.ttf);
+}
+@font-face {
+    font-family:'BP-BookItalic';
+    src: url(../font/BlenderPro-BookItalic.ttf);
+}
+@font-face {
+    font-family:'BP-Heavy';
+    src: url(../font/BlenderPro-Heavy.ttf);
+}
+body{
+    margin: 0 auto;
+    background-color: #393E46;
+}
+header{
+    
+    background-color: #393e46a1;
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0%;
+    
+}
+nav{
+    padding: 1em 0px 1em 0px;
+    display: flex;
+    justify-content: center;
+}
+nav a{
+    text-decoration: none;
+}
+.mLink{
+    margin-right: 2vw;
+}
+.marginNickname{
+    margin-right: 20vw;
+}
+
+.bp-bold{
+    font-family:'BP-Bold';
+    color: #EEEEEE;
+}
+.bp-book{
+    font-family:'BP-Book';
+    color: #EEEEEE;
+}
+.bp-bookItalic{
+    font-family:'BP-BookItalic';
+    color: #EEEEEE;
+}
+.bp-heavy{
+    font-family:'BP-Heavy';
+    color: #EEEEEE;
+}
+.fs-32{
+    font-size: 32px;
+}
+.fs-28{
+    font-size: 28px;
+}
+.fs-26{
+    font-size: 26px;
+}
+.fs-24{
+    font-size: 24px;
+}
+.fs-22{
+    font-size: 22px;
+}

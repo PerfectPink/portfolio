@@ -1,0 +1,60 @@
+.secMyBio{
+    display: flex;
+    justify-content: center;
+}
+.max-width-640{
+    max-width: 640px;
+}
+.taCenter{
+    text-align: center;
+}
+.taLeft{
+    text-align: left;
+}
+.imgMyPhoto{
+    height: 440px;
+    width: auto;
+    border-radius: 0.5em;
+}
+.myName p{
+    margin: 12px 0px 12px 0px;
+}
+.bio-title{
+    text-align: left;
+    text-decoration: underline 2px solid #eeeeee;
+}
+.myBio div{
+    margin-bottom: 0.5em;
+}
+.mr-1em{
+    margin-right: 1em;
+}
+
+
+.social-link a{
+    display: flex;
+    align-items: center;
+}
+.social-link a{
+    color: #eeeeee;
+    text-decoration: none;
+}
+.social-link a *{
+    margin-right: 1em;
+}
+.social-link button{
+    box-sizing: border-box;
+    border: none;
+    margin-bottom: 0.5em;
+    padding: 0.5em 0.25em 0.5em 0.25em;
+    border-radius: 1em;
+    background-color: #eeeeee00;
+}
+.social-link button:hover{
+    background-color: #00acb544;
+}
+
+.social-ico{
+    height: 32px;
+    width: 32px;
+}
