@@ -72,3 +72,9 @@ nav a{
 .fs-22{
     font-size: 22px;
 }
+.taCenter{
+    text-align: center;
+}
+.taLeft{
+    text-align: left;
+}

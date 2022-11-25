@@ -5,12 +5,7 @@
 .max-width-640{
     max-width: 640px;
 }
-.taCenter{
-    text-align: center;
-}
-.taLeft{
-    text-align: left;
-}
+
 .imgMyPhoto{
     height: 440px;
     width: auto;

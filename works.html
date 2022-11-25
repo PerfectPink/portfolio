@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/works.css">
+    <script src="./js/workspage.js" defer></script>
     <title>PerfectPink</title>
 </head>
 
@@ -18,62 +20,48 @@
             <a href="../skills.html" class="bp-book fs-26 mLink">skills</a>
         </nav>
     </header>
-    <link rel="stylesheet" href="../css/works.css">
-    <script src="../js/workspage.js" defer></script>
-    <p class="works-title bp-heavy fs-28">WORKING PROJECTS</p>
-    <div class="works-block">
-        <div class="wrapper">
-            <div class="flex-row">
-                <div class="work-block">
-                    <a href="http://" class="td-n" onclick="">
+    <section id="works-page-section">
+        <p class="works-title bp-heavy fs-28">LEARNING PROJECTS</p>
+        <div class="works-block">
+            <div class="wrapper">
+                <div class="flex-row">
+                    <div class="work-block" onclick="renderWallpaperSite()">
                         <img src="../images/Preview/workWallpaper.png" alt="" class="workPrev">
                         <span class="bp-bold fs-24">Wallpapers cite</span>
                         <span class="bp-book fs-22">bla bla bla</span>
-                    </a>
-                </div>
-                <div class="work-block">
-                    <a href="http://" class="td-n" onclick="">
+                    </div>
+                    <div class="work-block" onclick="renderWallpaperSite()">
                         <img src="../images/Preview/workWallpaper.png" alt="" class="workPrev">
                         <span class="bp-bold fs-24">Wallpapers cite</span>
                         <span class="bp-book fs-22">bla bla bla</span>
-                    </a>
-                </div>
-                <div class="work-block">
-                    <a href="http://" class="td-n" onclick="">
+                    </div>
+                    <div class="work-block" onclick="renderWallpaperSite()">
                         <img src="../images/Preview/workWallpaper.png" alt="" class="workPrev">
                         <span class="bp-bold fs-24">Wallpapers cite</span>
                         <span class="bp-book fs-22">bla bla bla</span>
-                    </a>
-                </div>
-                <div class="work-block">
-                    <a href="http://" class="td-n" onclick="">
-                        <img src="../images/Preview/workWallpaper.png" alt="" class="workPrev">
-                        <span class="bp-bold fs-24">Wallpapers cite</span>
-                        <span class="bp-book fs-22">bla bla bla</span>
-                    </a>
-                </div>
-                <div class="work-block">
-                    <a href="http://" class="td-n" onclick="">
-                        <img src="../images/Preview/workWallpaper.png" alt="" class="workPrev">
-                        <span class="bp-bold fs-24">Wallpapers cite</span>
-                        <span class="bp-book fs-22">bla bla bla</span>
-                    </a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
     <template id="work-card-temp">
-        <div>
-            <div>
-                <p>Cite Name</p>
-                <p>Cite desc</p>
-                <div>
-                    <span>link</span>
-                    <span>Year</span>
-                    <span>stack</span>
-                </div>
-                <div>
-                    dropdown/screnschots
+        <div class="work-cards">
+            <div class="wrapper">
+                <div class="temp-card">
+                    <p class="temp-title bp-bold fs-32 taCenter">---title</p>
+                    <p class="temp-desc bp-book fs-26">---description</p>
+                    <div class="temp-info">
+                        <span class="temp-year bp-bookItalic fs-24">---year</span>
+                        <span class="temp-stack bp-bookItalic fs-24">---stack</span>
+                        <a href="---link" target="_blank" class="temp-link bp-book fs-24">Go To WebSite</a>
+                    </div>
+                    <div>
+                        <img src="---imgSrc" alt="" class="temp-img">
+                    </div>
+                    <button class="temp-btn">
+                        <a href="../works.html" class="bp-heavy fs-32">Back</a>
+                    </button>
                 </div>
             </div>
         </div>
