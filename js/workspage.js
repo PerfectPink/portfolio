@@ -4,7 +4,7 @@ let wallpaperSite = {
     "title": "Wallpapers",
     "description": "learning project site with wallpapers collection with different genres",
     "year": "2022",
-    "image": "./images/Preview/workWallpaper.png",
+    "image": "images/Preview/workWallpaper.png",
     "stack": ["HTML", " CSS"],
     "link": ["https://perfectpink.github.io/NordWallpapers/"]
 }
@@ -12,21 +12,21 @@ let tmntSite = {
     "title": "TMNT",
     "description": "Site with presentation of heroes from cartoon Teen Mutant Ninja Turtles ",
     "year": "2022",
-    "image": "./images/Preview/workTMNT.png",
+    "image": "images/Preview/workTMNT.png",
     "stack": ["HTML", " CSS"],
     "link": ["https://perfectpink.github.io/NordTMNT/"]};
 let coffeSite = {
     "title": "Coffe site",
     "description": "Site with a little bit information about coffee. Target of project learn how to use Bootstrap",
     "year": "2022",
-    "image": "./images/Preview/workCoffee.png",
+    "image": "images/Preview/workCoffee.png",
     "stack": ["HTML", " CSS"," Bootstrap"],
     "link": ["https://perfectpink.github.io/NordCoffe/"]};
 let squareSite = {
     "title": "Blue Square site",
     "description": "site where you can change blue square. Target of project was learn basic js.",
     "year": "2022",
-    "image": "./images/Preview/workSquare.png",
+    "image": "images/Preview/workSquare.png",
     "stack": ["HTML", " CSS", "JS"],
     "link": ["https://perfectpink.github.io/RedSquare/"]
 };
@@ -34,7 +34,7 @@ let anime4realSite = {
     "title": "Anime site",
     "description": "This site can show you some anime title with detailed information about they, target of project was make site with pages and learn how to use API's",
     "year": "2022",
-    "image": "./images/Preview/workAnime.png",
+    "image": "images/Preview/workAnime.png",
     "stack": ["HTML", " CSS", "JS"],
     "link": ["https://perfectpink.github.io/Anime4real/"]
 };
