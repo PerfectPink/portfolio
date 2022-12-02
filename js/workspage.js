@@ -38,6 +38,14 @@ let anime4realSite = {
     "stack": ["HTML", " CSS", "JS"],
     "link": ["https://perfectpink.github.io/Anime4real/"]
 };
+let Taskboard = {
+    "title": "Taskboard",
+    "description": "Project website where you can create and track your tasks",
+    "year": "2022",
+    "image": "images/Preview/workTaskboard.png",
+    "stack": ["HTML", " CSS", "JS"],
+    "link": ["https://perfectpink.github.io/Taskboard/"]
+};
 
 function clearpage() {
     worksSection.innerHTML = " ";
@@ -87,4 +95,13 @@ function renderAnimeSite() {
         .replace('---stack', anime4realSite['stack'])
         .replace('---link', anime4realSite['link'])
         .replace('---imgSrc', anime4realSite['image'])
+}
+function renderTaskboard() {
+    clearpage();
+    worksSection.innerHTML += template.innerHTML.replace('---title', Taskboard['title'])
+        .replace('---description', Taskboard['description'])
+        .replace('---year', Taskboard['year'])
+        .replace('---stack', Taskboard['stack'])
+        .replace('---link', Taskboard['link'])
+        .replace('---imgSrc', Taskboard['image'])
 }
